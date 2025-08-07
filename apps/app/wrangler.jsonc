@@ -7,7 +7,7 @@
     "compatibility_date": "2025-08-07",
     "workers_dev": false,
     "route": {
-        "pattern": "shop.example.com",
+        "pattern": "app.tasko.cc",
         "custom_domain": true
     },
     "assets": {
