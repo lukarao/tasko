@@ -3,7 +3,11 @@
 	"private": true,
 	"scripts": {
 		"build": "turbo run build",
-		"dev": "turbo run dev"
+		"dev": "turbo run dev",
+		"build:app": "turbo run app#build",
+		"dev:app": "turbo run app#dev",
+		"build:site": "turbo run site#build",
+		"dev:site": "turbo run site#dev"
 	},
 	"devDependencies": {
 		"turbo": "^2.5.5"
