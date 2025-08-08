@@ -1,11 +1,14 @@
+# Dependencies
 node_modules
 
-# Output
+# Svelte
+.svelte-kit
+
+# Unused
 .output
 .vercel
 .netlify
 .wrangler
-.svelte-kit
 /build
 
 # OS
