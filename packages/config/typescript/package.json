@@ -1,5 +1,5 @@
 {
-    "name": "@repo/tsconfig",
+    "name": "@repo/typescript-config",
     "private": true,
     "publishConfig": {
         "access": "public"
