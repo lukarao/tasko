@@ -7,10 +7,6 @@ on:
     paths-ignore:
       - 'apps/site/**'
 
-defaults:
-  run:
-    working-directory: ./apps/app/
-
 jobs:
   deploy:
     name: Deploy App
@@ -26,4 +22,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: ./apps/app/
           wranglerVersion: "4.28.1"
