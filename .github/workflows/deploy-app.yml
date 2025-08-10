@@ -7,6 +7,10 @@ on:
     paths-ignore:
       - 'apps/site/**'
 
+defaults:
+  run:
+    working-directory: ./apps/app/
+
 jobs:
   deploy:
     name: Deploy App
