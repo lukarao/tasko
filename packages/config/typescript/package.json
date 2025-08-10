@@ -1,4 +1,7 @@
 {
     "name": "@repo/typescript-config",
-    "private": true
+    "private": true,
+    "devDependencies": {
+        "@tsconfig/svelte": "^5.0.4"
+    }
 }
