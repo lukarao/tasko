@@ -4,7 +4,7 @@
     "exports": {
         ".": "./tailwind.css"
     },
-    "devDependencies": {
+    "peerDependencies": {
         "tailwindcss": "^4.1.11"
     }
 }
