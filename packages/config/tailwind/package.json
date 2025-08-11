@@ -1,0 +1,10 @@
+{
+    "name": "@repo/tailwind-config",
+    "private": true,
+    "exports": {
+        ".": "./tailwind.css"
+    },
+    "devDependencies": {
+        "tailwindcss": "^4.1.11"
+    }
+}
