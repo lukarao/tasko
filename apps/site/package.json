@@ -12,7 +12,7 @@
 		"deploy": "npx wrangler deploy"
 	},
 	"devDependencies": {
-		"@repo/tailwind-config": "*",
+		"@repo/styles": "*",
 		"@repo/typescript-config": "*",
 		"@repo/ui": "*",
 		"@sveltejs/adapter-cloudflare": "^7.1.3",

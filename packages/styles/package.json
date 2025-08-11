@@ -1,8 +1,8 @@
 {
-    "name": "@repo/tailwind-config",
+    "name": "@repo/styles",
     "private": true,
     "exports": {
-        ".": "./tailwind.css"
+        ".": "./styles.css"
     },
     "peerDependencies": {
         "tailwindcss": "^4.1.11"
