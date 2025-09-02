@@ -1,0 +1,14 @@
+{
+	"name": "Tasko",
+	"icons": [
+		{
+			"src": "/icon.png",
+			"type": "image/svg+xml",
+			"sizes": "any"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "black",
+	"background_color": "white"
+}
