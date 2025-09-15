@@ -1,0 +1,10 @@
+{
+	"name": "tasko",
+	"private": "true",
+	"packageManager": "pnpm@10.16.1",
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild"
+		]
+	}
+}

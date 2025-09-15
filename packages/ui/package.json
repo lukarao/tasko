@@ -1,0 +1,11 @@
+{
+	"name": "@tasko/ui",
+	"private": true,
+	"type": "module",
+	"exports": {
+		"./*": "./src/*"
+	},
+	"devDependencies": {
+		"tailwindcss": "^4.0.0"
+	}
+}
